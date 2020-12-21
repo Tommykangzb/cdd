@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/enterimage"
+    >
+
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/bt_EnterGame"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="400dp"
+            android:gravity="center"
+            android:text="进入游戏"
+            android:textColor="#000000"
+            android:textSize="26sp"
+            android:background="@drawable/btn_press"
+        />
+
+        <Button
+            android:id="@+id/bt_Setting"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/bt_EnterGame"
+            android:layout_marginLeft="400dp"
+            android:layout_marginTop="60dp"
+            android:text="游戏设置"
+            android:textColor="#000000"
+            android:textSize="26sp"
+            android:background="@drawable/btn_press"
+        />
+    <Button
+        android:id="@+id/bt_ExitGame"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/bt_Setting"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="60dp"
+        android:text="退出游戏"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:background="@drawable/btn_press"
+        />
+    />
+
+</RelativeLayout>

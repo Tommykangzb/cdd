@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_startgame">
+
+    <Button
+    android:id="@+id/bt_WithRobot"
+    android:layout_width="250dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="220dp"
+    android:gravity="center"
+    android:text="人机对战"
+    android:textColor="#000000"
+    android:textSize="26sp"
+    android:background="@drawable/btn_press"
+    />
+    <Button
+        android:id="@+id/bt_WithPlayer"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="220dp"
+        android:gravity="center"
+        android:text="多人对战"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:layout_below="@id/bt_WithRobot"
+        android:background="@drawable/btn_press"
+        />
+    <Button
+        android:id="@+id/bt_Enter_back"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="220dp"
+        android:gravity="center"
+        android:text="返回"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:layout_below="@id/bt_WithPlayer"
+        android:background="@drawable/btn_press"
+        />
+</RelativeLayout>

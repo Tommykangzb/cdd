@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2">
+    <RadioButton
+        android:id="@+id/music_moonoverfountain"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="二泉映月"
+        android:textSize="36sp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="30dp"/>
+
+    <RadioButton
+        android:id="@+id/music_hometown"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="故乡的原风景"
+        android:textSize="36sp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        />
+    <RadioButton
+        android:id="@+id/music_summer"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="菊次郎的夏天"
+        android:textSize="36sp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        />
+    <RadioButton
+        android:id="@+id/music_mountain_water"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="高山流水"
+        android:textSize="36sp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        />
+    <RadioButton
+        android:id="@+id/music_cccp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="苏维埃进行曲"
+        android:textSize="36sp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        />
+</RadioGroup>

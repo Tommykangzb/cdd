@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/enterimage"
+    tools:context=".SettingActivity">
+
+    <Button
+        android:id="@+id/bt_selectBGM"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_press"
+        android:text="选择BGM"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:padding="5dp"
+        />
+    <Button
+        android:id="@+id/bt_setting_back"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_press"
+        android:layout_below="@id/bt_Domusic"
+        android:text="返回"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:padding="5dp"
+        />
+    <Button
+        android:id="@+id/bt_Domusic"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_press"
+        android:layout_below="@id/bt_selectBGM"
+        android:text="开关音乐"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:padding="5dp"
+        />
+</RelativeLayout>
